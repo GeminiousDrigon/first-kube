@@ -14,7 +14,7 @@ export default function Home() {
 					Welcome to <a href="#">Kubernetes!</a>
 				</h1>
 				<h1 style={{ lineHeight: 0 }}>Hello! Gemin!</h1>
-				<h3 style={{ lineHeight: 0 }}>{location?.hostname}</h3>
+				{typeof window !== "undefined" && <h3 style={{ lineHeight: 0 }}>{location?.hostname}</h3>}
 			</main>
 		</div>
 	);
