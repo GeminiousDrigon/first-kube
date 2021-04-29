@@ -31,6 +31,6 @@ jobs:
           DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
         run: |
           cd frontend
-          docker build -t geminiousdrigon/first-kube-front:1.0.1 .
+          docker build -t geminiousdrigon/first-kube-front:1.0.0 .
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
           docker push geminiousdrigon/first-kube-front
