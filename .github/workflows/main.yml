@@ -33,4 +33,4 @@ jobs:
           cd frontend
           docker build -t geminiousdrigon/first-kube-front:1.0.0 .
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-          docker push -a geminiousdrigon/first-kube-front
+          docker push geminiousdrigon/first-kube-front
