@@ -40,6 +40,6 @@ jobs:
         with:
           context: ./frontend
           push: true
-          tags: geminiousdrigon/app:1.0.01
-          cache-from: type=registry,ref=geminiousdrigon/app:1.0.01
+          tags: geminiousdrigon/first-kube-front:1.0.01
+          cache-from: type=registry,ref=geminiousdrigon/first-kube-front:1.0.01
           cache-to: type=inline
