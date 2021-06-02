@@ -109,7 +109,7 @@ jobs:
         with:
           context: ./frontend
           push: false
-          tags: geminiousdrigon/first-kube-front:docker-registry-cache
-          cache-from: type=registry,ref=geminiousdrigon/first-kube-front:docker-registry-cache
+          tags: geminiousdrigon/first-kube-front:docker
+          cache-from: type=registry,ref=geminiousdrigon/first-kube-front:docker
           cache-to: type=inline
           
